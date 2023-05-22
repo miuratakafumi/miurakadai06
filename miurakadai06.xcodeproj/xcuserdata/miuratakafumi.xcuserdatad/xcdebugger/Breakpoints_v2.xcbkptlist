@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9AE3E5D0-FD96-48E6-83E7-CE44062AA202"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98294164-A553-4395-8A1F-475F108D5F9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "miurakadai06/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "checkButtonPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98294164-A553-4395-8A1F-475F108D5F9F - d974d25c0b5b7e70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "miurakadai06.ViewController.checkButtonPressed(Any) -&gt; ()"
+                  moduleName = "miurakadai06"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/miuratakafumi/Desktop/%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99/miurakadai06/miurakadai06/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1891">
+               </Location>
+               <Location
+                  uuid = "98294164-A553-4395-8A1F-475F108D5F9F - d974d25c0b5b7e70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "miurakadai06.ViewController.checkButtonPressed(Any) -&gt; ()"
+                  moduleName = "miurakadai06"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/miuratakafumi/Desktop/%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99/miurakadai06/miurakadai06/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1526">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
