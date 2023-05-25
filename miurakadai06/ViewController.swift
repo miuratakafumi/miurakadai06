@@ -34,26 +34,18 @@ class ViewController: UIViewController {
         let labelVlue = valueLabel.text
         // スライダーの値とラベルの値が一致しているかどうか判定
         if sliderValue == labelVlue {
-            currentShowAlert(title: "結果", message: "あたり!\nあなたの値: \(sliderValue)")
+            presentAlert(title: "結果", message: "あたり!\nあなたの値: \(sliderValue)")
         } else {
-            failureShowAlert(title: "結果", message: "はずれ!\nあなたの値: \(sliderValue)")
+            presentAlert(title: "結果", message: "はずれ!\nあなたの値: \(sliderValue)")
         }
     }
     
-    // 判定の結果、正解だった場合のメソッド
-    private func currentShowAlert(title: String, message: String) {
+    private func presentAlert(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "再挑戦", style: .default, handler: { action in self.resetLabelValue()}))
         present(alert, animated: true, completion: nil)
     }
-    
-    // 判定の結果、不正解だった場合のメソッド
-    private func failureShowAlert(title: String, message: String) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "再挑戦", style: .default, handler: { action in self.resetLabelValue()}))
-        present(alert, animated: true, completion: nil)
-    }
-    
+
     // 再挑戦ボタン押下時に新たなランダムの値を取得するメソッド
     private func resetLabelValue() {
         let randomInt = Int.random(in: 1...100)
